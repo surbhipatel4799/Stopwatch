@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.stop-watch-container{
+    height: 300px;
+    width: 70vw;
+    margin: 0px auto 0px auto;
+    background: linear-gradient(90deg, rgba(236,235,135,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+#show-timer{
+    width: 60%;
+    margin: auto;
+    height: 80px;
+    position: relative;
+    top: 50px;
+    background-color: white;
+}
+
+#show-timer p{
+    font-size: 50px;
+    margin: 35%;
+    position: relative;
+    top: 10px;
+}
+
+.timer-buttons{
+    /* margin: auto; */
+    margin-left: 280px;
+    position: relative;
+    top: 100px;
+    width: 35%;
+}
+
+.timer-buttons ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.timer-buttons ul li{
+    list-style: none;
+}
+
+.timer-buttons ul li button{
+    height: 40px;
+    width: 80px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
